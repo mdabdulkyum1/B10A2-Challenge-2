@@ -1,0 +1,28 @@
+:root{
+    --bg:black;
+    --primary:#e6533c;
+    --secondary:#ffffff;
+    --light:#7a7b7b;
+}
+
+
+/*    / | \
+    ///    \\\    
+  ||           ||
+  ||           ||
+  ||   Small   ||
+  ||           ||
+  ||           ||
+        |*/
+
+@media screen and (max-width: 576px) {
+    .nav ul{
+        display: none;
+    }
+    .hamburger{
+        display:block;
+        color:var(--secondary);
+        font-size: 20px;
+        font-weight: 900;
+    }
+}
