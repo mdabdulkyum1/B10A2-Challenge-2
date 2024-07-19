@@ -16,6 +16,14 @@
         |*/
 
 @media screen and (max-width: 576px) {
+    .header,
+    .main{
+        width: 100%;
+        padding: 0px 24px;
+    }
+    .nav{
+        margin-top: 70px;
+    }
     .nav ul{
         display: none;
     }
@@ -25,4 +33,49 @@
         font-size: 20px;
         font-weight: 900;
     }
+    /* ========================= */
+    /* ================ */
+    /* banner */
+    .banner{
+        flex-direction: column;
+    }
+    .col{
+        width: 100%;
+    }
+    .banner-content h1{
+        font-size:3.5rem;
+        line-height:normal;
+        
+    }
+    .banner .banner-img{
+        margin-top: 80px;
+        text-align: left;
+    }
+    .banner-content p{
+        width: 90%;
+    }
+    .banner-content .banner-btn .btn-2{
+        padding: 19px 30px;
+    }
+    .free-work {
+        top:20px;
+        right: 20px;
+    }
+    .video-tuto{
+        left: 0;
+        bottom: 250px;
+    }
+/* End banner  */
+
+
+
+
+
+
+
+
+
+
+
+
 }

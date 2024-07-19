@@ -51,7 +51,7 @@ button{
     padding: 3rem 0;
     width: 80%;
     margin: 0 auto;
-    background: linear-gradient(rgb(5, 4, 4) , rgb(7, 3, 3));
+    background: linear-gradient(rgb(5, 4, 4) , rgb(10, 7, 7));
 }
 /* navbar css */
 .nav{
@@ -84,7 +84,7 @@ button{
     align-items:center;
     margin-top: 65px;
 }
-.banner-content{}
+/* .banner-content{} */
 .banner-content h1{
     color: var(--secondary);
     font-size:6.5rem;
@@ -151,6 +151,18 @@ button{
     width: 40px;
     background-color: var(--primary);
     border-radius: 50%;
+ }
+/*.video-tuto .tuto h1{}
+.video-tuto .tuto p{} */
+/* End header styles */
+/* ============================ */
+/* ====================== */
+/* ====== */
+/* Main styles */
+.main{
+    width: 80%;
+    margin: 0 auto;
 }
-.video-tuto .tuto h1{}
-.video-tuto .tuto p{}
+.main section{
+    margin-top: 100px;
+}
