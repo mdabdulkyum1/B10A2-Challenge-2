@@ -107,6 +107,33 @@
     .habits-content h1 {
         font-size: 2rem;
     }
+    /* ======================================= */
+    /* run section styles */
+    .run-container{
+        flex-direction: column;
+        gap:30px;
+        padding-left: 24px;
+    }
+    .run-content h1{
+        font-size:3.5rem;
+    }
+    .run-content p{
+        width: 100%;
+        font-size: 1.2rem;
+       
+    }
+    .run-btn{
+        text-align: center;
+    }
+    .btn-run{
+        width: calc(100% - 30px);
+    }
+    .run-img{
+        text-align: center;
+    }
+    .run-img img{
+       width: 90%;
+    }
 }
 
 /*    / | \

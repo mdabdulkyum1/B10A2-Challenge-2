@@ -191,14 +191,50 @@ button{
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-.card{}
-.card-img{}
+}
+/* .card{}
+.card-img{} */
 .card-img img{
     border-radius: 50%;
 }
-.card-content{}
-.card-content  h1{}
+/* .card-content{}
+.card-content  h1{} */
 .card-content p{
     width: 70%;
     margin: 10px auto;
+}
+/* ========================= */
+/* ============== */
+/* ==== */
+/* Run styles */
+.run{
+    background-color:#222222;
+    border-radius: 20px;
+}
+.run-container{
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+.run-content{}
+.run-content h1{
+    color: var(--secondary);
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+.run-content p{
+    color: var(--light);
+    font-size: 1rem;
+    width:80%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.run-img{
+    text-align: right;
+}
+.run-img img{
+    width: 70%;
+    border-radius:15px;
 }
