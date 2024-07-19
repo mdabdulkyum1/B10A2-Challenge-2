@@ -104,6 +104,9 @@ button{
 .banner-content .banner-btn{
     gap: 10px;
 }
+.for-m{
+    display: none;
+}
 .banner-content .banner-btn .btn-2{
     background-color:transparent;
     color: var(--secondary);
@@ -134,7 +137,7 @@ button{
     font-size: 2.8rem;
     font-weight: 900;
 }
-.free-work p{}
+
 
 
 .video-tuto {

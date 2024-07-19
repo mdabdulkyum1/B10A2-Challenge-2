@@ -1,8 +1,8 @@
-:root{
-    --bg:black;
-    --primary:#e6533c;
-    --secondary:#ffffff;
-    --light:#7a7b7b;
+:root {
+    --bg: black;
+    --primary: #e6533c;
+    --secondary: #ffffff;
+    --light: #7a7b7b;
 }
 
 
@@ -10,72 +10,152 @@
     ///    \\\    
   ||           ||
   ||           ||
-  ||   Small   ||
+  ||   Mobile  ||
   ||           ||
   ||           ||
         |*/
 
 @media screen and (max-width: 576px) {
+
     .header,
-    .main{
+    .main {
         width: 100%;
         padding: 0px 24px;
     }
-    .nav{
+
+    .nav {
         margin-top: 70px;
     }
-    .nav ul{
+
+    .nav ul {
         display: none;
     }
-    .hamburger{
-        display:block;
-        color:var(--secondary);
+
+    .hamburger {
+        display: block;
+        color: var(--secondary);
         font-size: 20px;
         font-weight: 900;
     }
+
     /* ========================= */
     /* ================ */
     /* banner */
-    .banner{
+    .banner {
         flex-direction: column;
     }
-    .col{
+
+    .col {
         width: 100%;
     }
-    .banner-content h1{
-        font-size:3.5rem;
-        line-height:normal;
-        
+
+    .banner-content h1 {
+        font-size: 3.5rem;
+        line-height: normal;
+
     }
-    .banner .banner-img{
+
+    .banner .banner-img {
         margin-top: 80px;
         text-align: left;
     }
-    .banner-content p{
+
+    .banner-content p {
         width: 90%;
     }
-    .banner-content .banner-btn .btn-2{
-        padding: 19px 30px;
+
+    .btn-primary {
+        padding: 19px 40px;
+    }
+
+    .banner-content .banner-btn .btn-2 {
+        padding: 19px 20px;
+    }
+    .for-m{
+        display: block;
+    }
+    .for-d{
+        display:none;
     }
     .free-work {
-        top:20px;
+        top: 20px;
         right: 20px;
     }
-    .video-tuto{
+
+    .video-tuto {
         left: 0;
         bottom: 250px;
     }
-/* End banner  */
 
+    /* End banner  */
+}
 
+/*    / | \
+    ///    \\\    
+  ||           ||
+  ||           ||
+  || M-L=425px ||
+  ||           ||
+  ||           ||
+        |*/
 
+@media screen and (max-width: 425px) {
+    .free-work {
+        top: 0px;
+        right: -10px;
+    }
+}
 
+/*    / | \
+    ///    \\\    
+  ||           ||
+  ||           ||
+  || M-M=375px ||
+  ||           ||
+  ||           ||
+        |*/
 
+@media screen and (max-width: 375px) {
+    .btn-primary {
+        padding:16px 20px;
+    }
 
+    .banner-content .banner-btn .btn-2 {
+        padding: 16px 20px;
+    }
+    .wrk-out{
+        height:65px;
+        width: 160px;
+    }
+    .free-work h1,
+    .video-tuto .tuto h1{
+        font-size: 1rem;
+        font-weight:400;
+    }
+    .free-work p,
+    .video-tuto .tuto p{
+        font-size: .72rem;
+    }
+}
 
-
-
-
-
-
+/*    / | \
+    ///    \\\    
+  ||           ||
+  ||           ||
+  || M-S=320px ||
+  ||           ||
+  ||           ||
+        |*/
+@media screen and (max-width:320px) {
+   .btn-primary{
+    font-size: .7rem;
+    padding:0px 10px;
+    border-radius: 50px;
+   }
+   .banner-content h1{
+    font-size:2.6rem;
+   }
+   .banner-content p{
+    font-size:1rem;
+   }
 }
