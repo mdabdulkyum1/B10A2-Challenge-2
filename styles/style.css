@@ -169,3 +169,36 @@ button{
 .main section{
     margin-top: 100px;
 }
+/* habits sections */
+.habits{
+
+}
+.habits-content{
+    text-align: center;
+}
+.habits-content h1{
+    font-size: 3.5rem;
+    color: var(--secondary);
+}
+.habits-content p{
+    margin-top:20px;
+    color:var(--light);
+   
+}
+
+.habits-cards-container{
+    margin-top:45px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+.card{}
+.card-img{}
+.card-img img{
+    border-radius: 50%;
+}
+.card-content{}
+.card-content  h1{}
+.card-content p{
+    width: 70%;
+    margin: 10px auto;
+}

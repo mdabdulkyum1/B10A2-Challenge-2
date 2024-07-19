@@ -71,12 +71,15 @@
     .banner-content .banner-btn .btn-2 {
         padding: 19px 20px;
     }
-    .for-m{
+
+    .for-m {
         display: block;
     }
-    .for-d{
-        display:none;
+
+    .for-d {
+        display: none;
     }
+
     .free-work {
         top: 20px;
         right: 20px;
@@ -88,6 +91,22 @@
     }
 
     /* End banner  */
+
+    /* ======================= */
+    /* habits styles */
+    .habits {
+        margin-top: -68px !important;
+        z-index: 11;
+        position: relative;
+        background: black;
+    }
+    .habits-cards-container {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    .habits-content h1 {
+        font-size: 2rem;
+    }
 }
 
 /*    / | \
@@ -117,23 +136,26 @@
 
 @media screen and (max-width: 375px) {
     .btn-primary {
-        padding:16px 20px;
+        padding: 16px 20px;
     }
 
     .banner-content .banner-btn .btn-2 {
         padding: 16px 20px;
     }
-    .wrk-out{
-        height:65px;
+
+    .wrk-out {
+        height: 65px;
         width: 160px;
     }
+
     .free-work h1,
-    .video-tuto .tuto h1{
+    .video-tuto .tuto h1 {
         font-size: 1rem;
-        font-weight:400;
+        font-weight: 400;
     }
+
     .free-work p,
-    .video-tuto .tuto p{
+    .video-tuto .tuto p {
         font-size: .72rem;
     }
 }
@@ -147,15 +169,21 @@
   ||           ||
         |*/
 @media screen and (max-width:320px) {
-   .btn-primary{
-    font-size: .7rem;
-    padding:0px 10px;
-    border-radius: 50px;
-   }
-   .banner-content h1{
-    font-size:2.6rem;
-   }
-   .banner-content p{
-    font-size:1rem;
-   }
+    .btn-primary {
+        font-size: .7rem;
+        padding: 0px 10px;
+        border-radius: 50px;
+    }
+
+    .banner-content h1 {
+        font-size: 2.6rem;
+    }
+
+    .banner-content p {
+        font-size: 1rem;
+    }
+    /* habits styles */
+    .habits-content h1 {
+        font-size: 1.6rem;
+    }
 }
