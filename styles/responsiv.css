@@ -178,6 +178,10 @@
     .team-container{
         grid-template-columns: 1fr;
     }
+    /* footer */
+    .foot-container{
+        flex-direction:column;
+    }
 }
 
 /*    / | \

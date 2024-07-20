@@ -464,5 +464,10 @@ td {
 .foot-line{
     width: 80%;
     margin: 60px auto;
-    border: 1px solid black;
+    border: 1px solid #2f2f2f;
+}
+.copy{
+    text-align: center;
+    color: var(--light);
+    font-size:1.5rem;
 }
