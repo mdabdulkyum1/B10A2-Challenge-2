@@ -100,39 +100,71 @@
         position: relative;
         background: black;
     }
+
     .habits-cards-container {
         grid-template-columns: 1fr;
         gap: 50px;
     }
+
     .habits-content h1 {
         font-size: 2rem;
     }
+
     /* ======================================= */
     /* run section styles */
-    .run-container{
+    .run-container {
         flex-direction: column;
-        gap:30px;
-        padding-left: 24px;
+        gap: 30px;
     }
-    .run-content h1{
-        font-size:3.5rem;
+
+    .run-content h1 {
+        font-size: 3.5rem;
     }
-    .run-content p{
+
+    .run-content p {
         width: 100%;
         font-size: 1.2rem;
-       
+
     }
-    .run-btn{
+
+    .run-btn {
         text-align: center;
     }
-    .btn-run{
+
+    .btn-run {
         width: calc(100% - 30px);
     }
-    .run-img{
+
+    .run-img {
         text-align: center;
     }
-    .run-img img{
-       width: 90%;
+
+    .run-img img {
+        width: 90%;
+    }
+
+    /* ======== */
+    /* BMI styles */
+    .bmi{
+        margin-top: 40px !important;
+        margin-bottom:40px;
+    }
+    .bmi-content {
+        width: 100%;
+        
+    }
+
+    .bmi-content h1 {
+        color: var(--secondary);
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .bmi-content p {
+        color: var(--light);
+        font-size: 1.1rem;
+        width: 100%;
+        margin-top:15px;
     }
 }
 
@@ -209,6 +241,7 @@
     .banner-content p {
         font-size: 1rem;
     }
+
     /* habits styles */
     .habits-content h1 {
         font-size: 1.6rem;
