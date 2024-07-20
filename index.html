@@ -135,9 +135,75 @@
                 <p>We believe fitness should be accessible to everyone, everywhere, regardless Of income or
                     access to a gym</p>
             </div>
-         </section>
-
+        </section>
     </main>
+    <!-- Section BMI Calculator -->
+    <section class="bmi-calc">
+        <div class="bmi-calc-container d-flex">
+            <div class="col">
+                <div class="calc-chart">
+                    <h1>BMI Calculator Chart</h1>
+                    <table border="1" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24 9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29 9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col">
+                <div class="calculate-container">
+                    <h1>Calculate your BMI</h1>
+                    <p>we believe fitness Should be accessible to everyone, everywhere, regardless of income or access
+                        to a gym.</p>
+                </div>
+                <div class="calculate-form">
+                    <form>
+                        <div class="d-flex same-input ">
+                            <input class="inpt w-100" type="text" placeholder="Height/cm">
+                            <input class="inpt w-100" type="text" placeholder="Weight/kg">
+                        </div>
+                        <div class="d-flex same-input ">
+                            <input class="inpt w-100" type="text" placeholder="Age">
+                            <select class="w-100 inpt">
+                                <option value="1">Sex</option>
+                                <option value="2">Male</option>
+                                <option value="3">Female</option>
+                            </select>
+                        </div>
+                        <div class="input-group d-flex">
+                            <select class="w-100 inpt">
+                                <option value="1">Select an activity factor</option>
+                            </select>
+                            <span>
+                                <input class="btn-primary" type="submit" value="Calculate">
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- footer -->
     <footer>
 

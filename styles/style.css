@@ -39,6 +39,7 @@ a{
     border: none;
     border-radius:50px;
     font-size: 1.2rem;
+    cursor: pointer;
 }
 button{
     cursor: pointer;
@@ -255,4 +256,53 @@ button{
     color: var(--light);
     font-size: 1rem;
     width: 70%;
+}
+/* BMI Calculator styles */
+.bmi-calc{
+    background-color: #222222;
+    padding: 50px 0;
+    margin-top: 70px;
+}
+.bmi-calc-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.calc-chart{
+   
+}
+.calc-chart table{
+    border: 1px solid var(--light);
+    margin-top: 50px;
+}
+.calc-chart table th, td{
+    padding:18px 0;
+    padding-left: 20px;
+    padding-right:50px;
+    text-align: left;
+}
+.calculate-container{}
+.calculate-form{
+    margin-top: 50px;
+}
+.calculate-form form{
+   width:100%;
+}
+.same-input{
+    gap:15px;
+}
+.w-100{
+    width: 100%;
+}
+.inpt{
+    color: var(--light);
+    background-color:#383838;
+    padding: 14px 0;
+    padding-left:15px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.input-group{
+    flex-direction: column;
+    gap:20px;
 }
