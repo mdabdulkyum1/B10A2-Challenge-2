@@ -166,6 +166,18 @@
         width: 100%;
         margin-top:15px;
     }
+    /* ==================== */
+    /* Section BMI Calculator */
+    .bmi-calc-container{
+        flex-direction: column;
+    }
+    .calculate-container{
+        margin-top: 50px;
+    }
+    /* team section */
+    .team-container{
+        grid-template-columns: 1fr;
+    }
 }
 
 /*    / | \

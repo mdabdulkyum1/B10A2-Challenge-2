@@ -1,68 +1,78 @@
-
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-    --bg:black;
-    --primary:#e6533c;
-    --secondary:#ffffff;
-    --light:#7a7b7b;
+
+:root {
+    --bg: black;
+    --primary: #e6533c;
+    --secondary: #ffffff;
+    --light: #7a7b7b;
 }
-body{
-    color:var(--secondary);
-    background-color:var(--bg);
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+body {
+    color: var(--secondary);
+    background-color: var(--bg);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 /* common css */
-img{
+img {
     max-width: 100%;
 }
-ul{
+
+ul {
     list-style: none;
 }
-a{
+
+a {
     color: var(--secondary);
     text-decoration: none;
-    font-weight:500;
+    font-weight: 500;
 }
-.d-flex{
+
+.d-flex {
     display: flex;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: var(--primary);
     color: var(--secondary);
     padding: 19px 52px;
     border: none;
-    border-radius:50px;
+    border-radius: 50px;
     font-size: 1.2rem;
     cursor: pointer;
 }
-button{
+
+button {
     cursor: pointer;
 }
-.col{
+
+.col {
     width: 50%;
 }
+
 /* Header css */
-.header{
+.header {
     padding: 3rem 0;
     width: 80%;
     margin: 0 auto;
-    background: linear-gradient(rgb(5, 4, 4) , rgb(10, 7, 7));
+    background: linear-gradient(rgb(5, 4, 4), rgb(10, 7, 7));
 }
+
 /* navbar css */
-.nav{
+.nav {
     justify-content: space-between;
     align-items: center;
 }
-.nav h1{
+
+.nav h1 {
     color: var(--primary);
     font-size: 2.5rem;
 }
+
 .nav ul {
     align-items: center;
     gap: 42px;
@@ -71,70 +81,82 @@ button{
     padding: 9px 5px;
     padding-right: 20px;
 }
+
 .active-btn {
     background-color: var(--primary);
     font-weight: 900;
     padding: 7px 22px;
     border-radius: 20px;
 }
-.hamburger{
+
+.hamburger {
     display: none;
 }
+
 /* banner styles */
-.banner{
-    align-items:center;
+.banner {
+    align-items: center;
     margin-top: 65px;
 }
+
 /* .banner-content{} */
-.banner-content h1{
+.banner-content h1 {
     color: var(--secondary);
-    font-size:6.5rem;
-    line-height:120px;
-    text-shadow:250px 0px 60px rgba(82, 82, 82, 0.652);
+    font-size: 6.5rem;
+    line-height: 120px;
+    text-shadow: 250px 0px 60px rgba(82, 82, 82, 0.652);
 }
-.font-i{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+.font-i {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.banner-content p{
+
+.banner-content p {
     color: var(--light);
     font-size: 1.3rem;
     font-weight: 500;
     margin: 30px 0;
     width: 95%;
 }
-.banner-content .banner-btn{
+
+.banner-content .banner-btn {
     gap: 10px;
 }
-.for-m{
+
+.for-m {
     display: none;
 }
-.banner-content .banner-btn .btn-2{
-    background-color:transparent;
+
+.banner-content .banner-btn .btn-2 {
+    background-color: transparent;
     color: var(--secondary);
     padding: 19px 52px;
-    border:1px solid white;
-    border-radius:50px;
+    border: 1px solid white;
+    border-radius: 50px;
     font-size: 1.2rem;
 }
 
-.banner .banner-img{
+.banner .banner-img {
     text-align: right;
-    position:relative;
+    position: relative;
 }
-.wrk-out{
+
+.wrk-out {
     position: absolute;
     height: 100ox;
-    width:210px;
-    background-color:rgba(53, 53, 53, 0.706);
+    width: 210px;
+    background-color: rgba(53, 53, 53, 0.706);
     padding: 15px 25px;
     border-radius: 10px;
     text-align: left;
 }
+
 .free-work {
     top: 124px;
     right: -80px;
 }
-.free-work h1{
+
+.free-work h1 {
     font-size: 2.8rem;
     font-weight: 900;
 }
@@ -150,12 +172,14 @@ button{
     background-color: #232323df;
     border: 1px solid #535353;
 }
-.video-tuto .spot{
+
+.video-tuto .spot {
     height: 40px;
     width: 40px;
     background-color: var(--primary);
     border-radius: 50%;
- }
+}
+
 /*.video-tuto .tuto h1{}
 .video-tuto .tuto p{} */
 /* End header styles */
@@ -163,146 +187,241 @@ button{
 /* ====================== */
 /* ====== */
 /* Main styles */
-.main{
+.main {
     width: 80%;
     margin: 0 auto;
 }
-.main section{
+
+.main section {
     margin-top: 100px;
 }
-/* habits sections */
-.habits{
 
-}
-.habits-content{
+/* habits sections */
+.habits {}
+
+.habits-content {
     text-align: center;
 }
-.habits-content h1{
+
+.habits-content h1 {
     font-size: 3.5rem;
     color: var(--secondary);
 }
-.habits-content p{
-    margin-top:20px;
-    color:var(--light);
-   
+
+.habits-content p {
+    margin-top: 20px;
+    color: var(--light);
+
 }
 
-.habits-cards-container{
-    margin-top:45px;
+.habits-cards-container {
+    margin-top: 45px;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+
 /* .card{}
 .card-img{} */
-.card-img img{
+.card-img img {
     border-radius: 50%;
 }
+
 /* .card-content{}
 .card-content  h1{} */
-.card-content p{
+.card-content p {
     width: 70%;
     margin: 10px auto;
 }
+
 /* ========================= */
 /* ============== */
 /* ==== */
 /* Run styles */
-.run{
-    background-color:#222222;
+.run {
+    background-color: #222222;
     border-radius: 20px;
 }
-.run-container{
+
+.run-container {
     justify-content: space-between;
     align-items: center;
     width: 90%;
     margin: 0 auto;
     padding: 24px 0;
 }
-.run-content{}
-.run-content h1{
+
+.run-content {}
+
+.run-content h1 {
     color: var(--secondary);
     font-size: 4.5rem;
     font-weight: 700;
 }
-.run-content p{
+
+.run-content p {
     color: var(--light);
     font-size: 1rem;
-    width:80%;
+    width: 80%;
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.run-img{
+
+.run-img {
     text-align: right;
 }
-.run-img img{
+
+.run-img img {
     width: 70%;
-    border-radius:15px;
+    border-radius: 15px;
 }
+
 /* BMI styles */
 /* .bmi{
 
 } */
-.bmi-content{
+.bmi-content {
     width: 70%;
     margin: 0 auto;
 }
-.bmi-content h1{
+
+.bmi-content h1 {
     color: var(--secondary);
     font-size: 3.5rem;
     font-weight: 700;
 }
-.bmi-content p{
+
+.bmi-content p {
     color: var(--light);
     font-size: 1rem;
     width: 70%;
 }
+
 /* BMI Calculator styles */
-.bmi-calc{
+.bmi-calc {
     background-color: #222222;
     padding: 50px 0;
     margin-top: 70px;
 }
-.bmi-calc-container{
+
+.bmi-calc-container,
+.team-container {
     width: 80%;
     margin: 0 auto;
 }
-.calc-chart{
-   
-}
-.calc-chart table{
+
+.calc-chart {}
+
+.calc-chart table {
     border: 1px solid var(--light);
     margin-top: 50px;
 }
-.calc-chart table th, td{
-    padding:18px 0;
+
+.calc-chart table th,
+td {
+    padding: 18px 0;
     padding-left: 20px;
-    padding-right:50px;
+    padding-right: 50px;
     text-align: left;
 }
-.calculate-container{}
-.calculate-form{
+
+.calculate-container {}
+
+.calculate-form {
     margin-top: 50px;
 }
-.calculate-form form{
-   width:100%;
-}
-.same-input{
-    gap:15px;
-}
-.w-100{
+
+.calculate-form form {
     width: 100%;
 }
-.inpt{
+
+.same-input {
+    gap: 15px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.inpt {
     color: var(--light);
-    background-color:#383838;
+    background-color: #383838;
     padding: 14px 0;
-    padding-left:15px;
+    padding-left: 15px;
     border: none;
     border-radius: 8px;
     margin-bottom: 15px;
 }
-.input-group{
+
+.input-group {
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
+}
+
+/* ====================== */
+/* team styles */
+.team {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.team h1 {
+    font-size: 3rem;
+}
+
+.team p {
+    color: var(--light);
+    margin-bottom: 70px;
+}
+
+.team-container {
+    background-color: #191919;
+    text-align: left;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:24px;
+    padding: 24px;
+    
+}
+
+.team-card-1{
+    background: url('../images/trainer1.png');
+}
+.team-card-2{
+    background: url('../images/trainer2.png');
+}
+.team-card-3{
+    background: url('../images/trainer3.png');
+}
+.team-card-4{
+    background: url('../images/trainer4.png');
+}
+.team-card-5{
+    background: url('../images/trainer5.png');
+}
+.team-card-6{
+    background: url('../images/trainer6.png');
+}
+.team-card-bg {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    width:auto;
+    border-radius: 8px;
+}
+
+.team-card-img img {
+    /* height: 280px;
+    width: 335px; */
+}
+.img-caption{
+    position: absolute;
+    left:15px;
+    bottom:15px;
+}
+.img-caption h5{
+    color: var(--light);
 }
