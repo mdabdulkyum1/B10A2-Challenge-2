@@ -251,7 +251,7 @@ button {
     padding: 24px 0;
 }
 
-.run-content {}
+/* .run-content {} */
 
 .run-content h1 {
     color: var(--secondary);
@@ -275,7 +275,29 @@ button {
     width: 70%;
     border-radius: 15px;
 }
-
+/* foods styles here */
+.foods{}
+.foods-container{
+    gap:50px;
+    align-items: center;
+}
+.foods-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:15px;
+}
+.foods-img img{
+    border-radius:8px;
+}
+.foods-content{}
+.foods-content h1{
+    font-size:3rem;
+}
+.foods-content p{
+    color:var(--light);
+    margin-top:16px;
+    margin-bottom:30px;
+}
 /* BMI styles */
 /* .bmi{
 
