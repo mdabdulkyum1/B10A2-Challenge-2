@@ -143,15 +143,24 @@
         width: 90%;
     }
 
+    /* ==================== */
+    /* foods styles */
+    .foods-container{
+        flex-direction: column;
+    }
+    .foods-content h1{
+        font-size: 2rem;
+    }
     /* ======== */
     /* BMI styles */
-    .bmi{
+    .bmi {
         margin-top: 40px !important;
-        margin-bottom:40px;
+        margin-bottom: 40px;
     }
+
     .bmi-content {
         width: 100%;
-        
+
     }
 
     .bmi-content h1 {
@@ -164,23 +173,27 @@
         color: var(--light);
         font-size: 1.1rem;
         width: 100%;
-        margin-top:15px;
+        margin-top: 15px;
     }
+
     /* ==================== */
     /* Section BMI Calculator */
-    .bmi-calc-container{
+    .bmi-calc-container {
         flex-direction: column;
     }
-    .calculate-container{
+
+    .calculate-container {
         margin-top: 50px;
     }
+
     /* team section */
-    .team-container{
+    .team-container {
         grid-template-columns: 1fr;
     }
+
     /* footer */
-    .foot-container{
-        flex-direction:column;
+    .foot-container {
+        flex-direction: column;
     }
 }
 
