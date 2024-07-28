@@ -1,3 +1,18 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@font-face {
+    font-family:'Miama';
+    src: url(fonts/Miama.ttf);
+    src: url(fonts/Miama.otf);
+}
+.inter-sans {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+  }
+  
+
 * {
     margin: 0;
     padding: 0;
@@ -108,7 +123,9 @@ button {
 }
 
 .font-i {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Miama", sans-serif;
+    font-weight: normal;
+    font-size:12rem;
 }
 
 .banner-content p {

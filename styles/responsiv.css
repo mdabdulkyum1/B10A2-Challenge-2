@@ -5,6 +5,81 @@
     --light: #7a7b7b;
 }
 
+/* =========================
+============= Tap ================
+============================== */
+@media all and (max-width: 992px) and (min-width: 577px) {
+
+    .header,
+    .main {
+        width: 100%;
+        padding: 0px 24px;
+    }
+
+    .nav {
+        margin-top: 70px;
+    }
+
+    /* ========================= */
+    /* ================ */
+    /* banner */
+    .banner {
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .banner-content h1 {
+        font-size: 3.5rem;
+        line-height: normal;
+
+    }
+
+    .banner .banner-img {
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .banner-content p {
+        width: 90%;
+    }
+
+    .btn-primary {
+        padding: 19px 40px;
+    }
+
+    .banner-content .banner-btn .btn-2 {
+        padding: 19px 20px;
+    }
+    .free-work.wrk-out {
+        top: 12px;
+        right: 98px;
+    }
+
+        /* ======================= */
+    /* habits styles */
+    .habits {
+        margin-top: -68px !important;
+        z-index: 11;
+        position: relative;
+        background: black;
+    }
+
+    .habits-cards-container {
+        grid-template-columns:repeat(2, 1fr);
+        gap: 30px;
+    }
+    /* run style */
+    .run-content h1 {
+        font-size: 2rem;
+    }
+
+}
+
+
+
 
 /*    / | \
     ///    \\\    
@@ -145,12 +220,14 @@
 
     /* ==================== */
     /* foods styles */
-    .foods-container{
+    .foods-container {
         flex-direction: column;
     }
-    .foods-content h1{
+
+    .foods-content h1 {
         font-size: 2rem;
     }
+
     /* ======== */
     /* BMI styles */
     .bmi {
