@@ -125,11 +125,13 @@
     }
 
     .banner-content h1 {
-        font-size: 3.5rem;
+        font-size: 3.1rem;
         line-height: normal;
 
     }
-
+    .font-i{
+        font-size:5rem;
+    }
     .banner .banner-img {
         margin-top: 80px;
         text-align: left;
