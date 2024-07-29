@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @font-face {
     font-family:'Miama';
-    src: url("https://github.com/mdabdulkyum1/B10A2-Challenge-2/raw/84dd5708c5edcb3f9c883d7da773750934a6ea58/styles/fonts/Miama.ttf");
+    src: url(https://cdn.jsdelivr.net/gh/mdabdulkyum1/B10A2-Challenge-2@main/styles/fonts/Miama.ttf);
+
 }
 .inter-sans {
     font-family: "Inter", sans-serif;
