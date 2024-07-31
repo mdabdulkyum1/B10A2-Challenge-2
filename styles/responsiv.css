@@ -224,7 +224,7 @@
     /* ==================== */
     /* foods styles */
     .foods-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .foods-content h1 {

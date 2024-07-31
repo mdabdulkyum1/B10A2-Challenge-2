@@ -303,6 +303,8 @@ button {
     gap:15px;
 }
 .foods-img img{
+    height: 100%;
+    width: 100%;
     border-radius:8px;
 }
 .foods-content{}
@@ -409,7 +411,11 @@ td {
 
 .team p {
     color: var(--light);
+    margin: 0 auto;
+    margin-top: 24px;
     margin-bottom: 70px;
+    width: 60%;
+
 }
 
 .team-container {
