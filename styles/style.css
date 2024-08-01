@@ -365,7 +365,10 @@ td {
     text-align: left;
 }
 
-.calculate-container {}
+.calculate-container p{
+    color: var(--light);
+    margin-top: 15px;
+}
 
 .calculate-form {
     margin-top: 50px;
@@ -479,7 +482,7 @@ td {
 
 .foot{
     background-color: #191919;
-    padding:50px 0px;
+    padding:40px 0px;
 }
 .foot-container{
     width: 80%;
@@ -507,7 +510,7 @@ td {
 }
 .foot-line{
     width: 80%;
-    margin: 60px auto;
+    margin: 40px auto;
     border: 1px solid #2f2f2f;
 }
 .copy{
