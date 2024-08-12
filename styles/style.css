@@ -195,6 +195,9 @@ button {
     background-color: var(--primary);
     border-radius: 50%;
 }
+.video-tuto .spot i{
+  visibility: hidden;
+}
 
 /*.video-tuto .tuto h1{}
 .video-tuto .tuto p{} */

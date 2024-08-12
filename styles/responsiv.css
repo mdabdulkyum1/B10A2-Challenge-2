@@ -53,12 +53,13 @@
     .banner-content .banner-btn .btn-2 {
         padding: 19px 20px;
     }
+
     .free-work.wrk-out {
         top: 12px;
         right: 98px;
     }
 
-        /* ======================= */
+    /* ======================= */
     /* habits styles */
     .habits {
         margin-top: -68px !important;
@@ -68,9 +69,10 @@
     }
 
     .habits-cards-container {
-        grid-template-columns:repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 30px;
     }
+
     /* run style */
     .run-content h1 {
         font-size: 2rem;
@@ -126,12 +128,14 @@
 
     .banner-content h1 {
         font-size: 3.9rem;
-        line-height:4.5rem;
+        line-height: 4.5rem;
     }
-    .font-i{
+
+    .font-i {
         font-family: "Miama", sans-serif;
-        font-size:6.5rem;
+        font-size: 6.5rem;
     }
+
     .banner .banner-img {
         margin-top: 80px;
         text-align: left;
@@ -167,6 +171,14 @@
         bottom: 250px;
     }
 
+    .video-tuto .spot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .video-tuto .spot i{
+        visibility: visible;
+    }
     /* End banner  */
 
     /* ======================= */
@@ -260,10 +272,12 @@
     .bmi-calc-container {
         flex-direction: column;
     }
+
     .calc-chart table td {
         color: var(--light);
         font-size: .8rem;
     }
+
     .calculate-container {
         margin-top: 50px;
     }
@@ -271,31 +285,38 @@
     /* team section */
     .team-container {
         grid-template-columns: 1fr;
-    } 
-    .team h1{
+    }
+
+    .team h1 {
         font-size: 2.5rem;
     }
-    .team p{
+
+    .team p {
         width: 100%;
         padding: 0 24px;
     }
 
     /* footer */
-    .foot-content h1{
+    .foot-content h1 {
         font-size: 3.5rem;
     }
-    .foot-content p{
+
+    .foot-content p {
         width: 100%;
     }
+
     .foot-container {
         flex-direction: column;
     }
-    .foot-content-title{
+
+    .foot-content-title {
         margin-top: 24px;
     }
-    .foot ul{
+
+    .foot ul {
         gap: 12px;
     }
+
     .foot ul li a {
         font-size: 1.5rem;
     }
