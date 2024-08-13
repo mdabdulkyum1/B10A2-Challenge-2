@@ -118,7 +118,7 @@
     /* ========================= */
     /* ================ */
     /* banner */
-    .banner {
+    .banner-container{
         flex-direction: column;
     }
 
@@ -281,8 +281,13 @@
     .calculate-container {
         margin-top: 50px;
     }
-
+    .calc-chart table th, td {
+        padding-right: 28px;
+    }
     /* team section */
+    .team {
+        margin-top: 50px;
+    }
     .team-container {
         grid-template-columns: 1fr;
     }
